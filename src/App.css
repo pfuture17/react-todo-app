@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Fascinate', cursive;
+  color: lightcyan;
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/52/ec/bb/52ecbb1273c5d9b78b7a07863fe63234.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:bottom
+
+}
+.App {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.pending {
+  background-image: url(https://image.freepik.com/free-vector/back-school-notepad-cute-cartoon-illustration_107355-717.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.pending h2 {
+  color: rgba(236, 65, 65, 0.801);
+}
+
+.done {
+  background-image: url(https://image.freepik.com/free-vector/back-school-notepad-cute-cartoon-illustration_107355-715.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+.done li, .done h2 {
+  color: rgba(236, 65, 65, 0.801);
+  margin-left: 120px;
+}
+.done li {
+  width: 60%;
+}
+.App-body {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.App-header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+H1 {
+  text-align: center;
+}

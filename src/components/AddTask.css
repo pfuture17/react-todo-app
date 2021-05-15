@@ -1,0 +1,23 @@
+.addTask {
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/879/304/non_2x/boy-presenting-notepad-cute-cartoon-illustration-vector.jpg);
+    background-size: cover;
+    width: 200px;
+    height:200px;
+    padding: 20px;
+    color: rgba(14, 175, 175, 0.568);
+    border-radius: 20px;
+}
+.add {
+    background-color: rgba(14, 175, 175, 0.568);
+    border: none;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.add:hover {
+    background-color: cyan;
+}
+.error {
+    color: red;
+}

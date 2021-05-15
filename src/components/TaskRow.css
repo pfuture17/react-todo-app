@@ -1,0 +1,31 @@
+li {
+    margin-left: 20px;
+    color: rgba(236, 65, 65, 0.801);
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.x , .check {
+    width: 20px;
+    background: none;
+    border: none;
+    height: 20px;
+    cursor: pointer;
+}
+.x {
+    color: red;
+}
+.check {
+    color: green;
+}
+
+.x:hover {
+    background-color: rgba(236, 65, 65, 0.801);
+    color: white;
+    border-radius: 5px;
+}
+.check:hover {
+    background-color: greenyellow;
+    color: white;
+    border-radius: 5px;
+}
